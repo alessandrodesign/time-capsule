@@ -3,3 +3,6 @@ composer.phar
 /.idea/
 composer.lock
 .env
+/backend/vendor/
+/frontend/.vscode/
+/frontend/node_modules/

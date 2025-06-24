@@ -1,0 +1,27 @@
+{
+  "name": "alessandrodesign/time-capsule",
+  "description": "Capsula do tempo",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alessandro Souza",
+      "email": "alessandro.souza@norte.dev.br"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "symfony/dotenv": "^7.3",
+    "symfony/http-foundation": "^7.3",
+    "php-di/php-di": "^7.0",
+    "phpmailer/phpmailer": "^6.10"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^7.3"
+  }
+}
